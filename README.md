@@ -4,7 +4,7 @@ This was used to create go-faster k8s cluster.
 
 ## Setup
 
-1. Change `k8sServiceHost` in `cilium.yml` to your control node IP
+1. Change `k8sServiceHost` in `cilium.yml` to your control node IP and `devices` to your network interface
 2. Read [install.k8s.sh](install.k8s.sh) and run it
 
 ### Metallb
